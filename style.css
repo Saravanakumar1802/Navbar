@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Urbanist:wght@300;400;500;600&display=swap');
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+
+}
+
+a:hover {
+    color: currentColor;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px black;
+}
+
+header .container-fluid {
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navb-logo img {
+    width: 70px;
+    height: 66px;
+    object-fit: contain;
+    /* mix-blend-mode:color-burn; */
+}
+
+header .navb-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-right: 6rem;
+}
+
+.end_btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10rem;
+    gap: 2rem;
+}
+
+.hire_us p {
+    font-size: 13px;
+}
+.hire_us a{
+    color: #0766ff;
+}
+
+.hire_us img{
+    height: 25px;
+}
+
+header .item {
+    text-align: center;
+    font-size: 17 px;
+    color: #102447;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+header .item-button {
+    background-color: #0766ff;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.vl {
+    border-left: 3px solid rgb(191, 191, 191);
+    height: 35px;
+    border-radius: 50px;
+  }
