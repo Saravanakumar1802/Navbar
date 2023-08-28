@@ -318,4 +318,7 @@ header .item-button {
 
         width: 82%;
     }
+    .navb-items{
+        z-index: -1;
+    }
 }
